@@ -21,7 +21,7 @@ def main(string):
             pig_list.append(new_string)
         else:
             #print(f"{first_letter} is a vowel!")
-            pig_list.append(eng_sentence[i])
+            pig_list.append(pig_latinize(eng_sentence[i], ""))
     pig_sentence = " ".join(pig_list)
     print(pig_sentence)
         #print(eng_sentence[i])
